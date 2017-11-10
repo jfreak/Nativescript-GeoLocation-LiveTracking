@@ -1,0 +1,19 @@
+<ActionBar title="Location"></ActionBar>
+<!-- <ActionBar title="App Icon Demo" android.icon="res://icon" android.iconVisibility="always"></ActionBar> -->
+<GridLayout>
+    <StackLayout>
+        <Label text="Latitude: {{ latitude }}"></Label>
+        <Label text="Longitude: {{ longitude }}"></Label>
+        <Button class="btn btn-primary btn-active" text="Update Location" (tap)="updateLocation()"></Button>
+        <Button class="btn btn-primary btn-active" text="Start Watching" (tap)="startWatchingLocation()"></Button>
+        <Button class="btn btn-primary btn-active" text="Stop Watching" (tap)="stopWatchingLocation()"></Button>
+        <ListView [items]="dbDataArray">
+            <ng-template let-item="item" let-i="index" let-odd="odd" let-even="even">
+                <StackLayout [class.odd]="odd" [class.even]="even">
+                    <Label [text]='"Index: " + i + " Timestamp: "+item.timestamp'></Label>
+                    <Label [text]='"[" + item.Lat +", " + item.Long + "]"'></Label>
+                </StackLayout>
+            </ng-template>
+        </ListView>
+    </StackLayout>
+</GridLayout>

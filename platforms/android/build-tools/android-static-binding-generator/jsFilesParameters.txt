@@ -1,0 +1,5 @@
+/home/jagpreet/Desktop/Native/GeoLocation/platforms/android/src/main/assets/app/vendor.js
+/home/jagpreet/Desktop/Native/GeoLocation/platforms/android/src/main/assets/app/starter.js
+/home/jagpreet/Desktop/Native/GeoLocation/platforms/android/src/main/assets/app/bundle.js
+/home/jagpreet/Desktop/Native/GeoLocation/platforms/android/src/main/assets/app/tns-java-classes.js
+/home/jagpreet/Desktop/Native/GeoLocation/platforms/android/src/main/assets/app/app.css.js
